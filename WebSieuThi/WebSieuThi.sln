@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSieuThi", "WebSieuThi\WebSieuThi.csproj", "{2F4300D0-916B-46D7-90E9-7F44FF171FAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F4300D0-916B-46D7-90E9-7F44FF171FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4300D0-916B-46D7-90E9-7F44FF171FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4300D0-916B-46D7-90E9-7F44FF171FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4300D0-916B-46D7-90E9-7F44FF171FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6E93110-F59E-40D5-A216-1651A1FEDA3F}
+	EndGlobalSection
+EndGlobal
