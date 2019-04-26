@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Dangnhap.aspx" />
+    <Content Include="Doimatkhau.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +78,13 @@
     </Compile>
     <Compile Include="Dangnhap.aspx.designer.cs">
       <DependentUpon>Dangnhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Doimatkhau.aspx.cs">
+      <DependentUpon>Doimatkhau.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Doimatkhau.aspx.designer.cs">
+      <DependentUpon>Doimatkhau.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="App_Code\XLDL.cs" />
