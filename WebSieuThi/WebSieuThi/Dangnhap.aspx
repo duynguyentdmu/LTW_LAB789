@@ -44,7 +44,11 @@
                             <td>
                                 <asp:Button ID="btDangnhap" runat="server" OnClick="btDangnhap_Click1" Text="Đăng Nhập" />
                             </td>
-                            <td><a href="#">Đổi mật khẩu</a></td>
+                            <td><a href="#">
+                                <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Doimatkhau.aspx" runat="server" >Đổi mật khẩu</asp:HyperLink>
+                           <br />
+                                <asp:HyperLink ID="HyperLink2" NavigateUrl="~/Dangky.aspx" runat="server" >Đăng ký</asp:HyperLink>
+                                </a></td>
                         </tr>
                       
                 </tbody>
