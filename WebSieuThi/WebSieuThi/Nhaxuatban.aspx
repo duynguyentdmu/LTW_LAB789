@@ -11,7 +11,7 @@
         <div>
             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:KetnoiCSDL %>" SelectCommand="SELECT * FROM [NHAXUATBAN]"></asp:SqlDataSource>
         </div>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="MaNXB" DataSourceID="SqlDataSource1">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="MaNXB" DataSourceID="SqlDataSource1" AllowPaging="True" AllowSorting="True" Width="387px">
             <Columns>
                 <asp:BoundField DataField="MaNXB" HeaderText="MaNXB" InsertVisible="False" ReadOnly="True" SortExpression="MaNXB" />
                 <asp:BoundField DataField="TenNXB" HeaderText="TenNXB" SortExpression="TenNXB" />
